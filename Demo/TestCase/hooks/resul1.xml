@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="1" hostname="TwistFatedeMac-mini.local" name="pytest" skipped="0" tests="2" time="0.060" timestamp="2020-03-05T20:20:04.317114">
+    <testcase
+            CPU="50%"
+            MEM="450MB"
+            auto_case="False"
+            classname="test_s"
+            file="test_s.py"
+            line="3"
+            name="test_failed"
+            time="0.001">
+    </testcase>
+
+    <testcase
+            CPU="60%"
+            MEM="200MB"
+            auto_case="True"
+            classname="test_s"
+            file="test_s.py"
+            line="9"
+            name="test_failed2"
+            time="0.001">
+        <failure message="assert False">record_xml_attribute = &lt;bound method _NodeReporter.add_attribute of &lt;_pytest.junitxml._NodeReporter object at 0x10b36e640&gt;&gt;
+
+    def test_failed2(record_xml_attribute):
+        record_xml_attribute(&quot;auto_case&quot;,&quot;True&quot;)
+        record_xml_attribute(&quot;CPU&quot;, &quot;60%&quot;)
+        record_xml_attribute(&quot;MEM&quot;, &quot;200MB&quot;)
+&gt;       assert False
+E       assert False
+
+test_s.py:14: AssertionError
+        </failure>
+    </testcase>
+    /testsuite>
+</testsuites>
