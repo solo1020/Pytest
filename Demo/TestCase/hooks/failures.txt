@@ -1,2 +1,0 @@
-test_s.py::test_failed
-test_s.py::test_failed
